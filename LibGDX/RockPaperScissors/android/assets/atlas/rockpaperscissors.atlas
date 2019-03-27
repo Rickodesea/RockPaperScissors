@@ -1,0 +1,237 @@
+
+rockpaperscissors.png
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_0
+  rotate: false
+  xy: 818, 530
+  size: 270, 365
+  orig: 270, 365
+  offset: 0, 0
+  index: -1
+bg_1
+  rotate: false
+  xy: 546, 606
+  size: 270, 391
+  orig: 270, 391
+  offset: 0, 0
+  index: -1
+bg_2
+  rotate: false
+  xy: 1090, 534
+  size: 270, 361
+  orig: 270, 361
+  offset: 0, 0
+  index: -1
+bg_3
+  rotate: false
+  xy: 274, 189
+  size: 270, 395
+  orig: 270, 395
+  offset: 0, 0
+  index: -1
+bg_4
+  rotate: false
+  xy: 2, 562
+  size: 270, 435
+  orig: 270, 435
+  offset: 0, 0
+  index: -1
+bg_5
+  rotate: false
+  xy: 546, 218
+  size: 270, 386
+  orig: 270, 386
+  offset: 0, 0
+  index: -1
+bg_6
+  rotate: false
+  xy: 274, 586
+  size: 270, 411
+  orig: 270, 411
+  offset: 0, 0
+  index: -1
+bg_7
+  rotate: false
+  xy: 2, 144
+  size: 270, 416
+  orig: 270, 416
+  offset: 0, 0
+  index: -1
+cover
+  rotate: false
+  xy: 818, 272
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ex
+  rotate: false
+  xy: 1745, 402
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+highlight
+  rotate: false
+  xy: 1466, 231
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+lock_0
+  rotate: false
+  xy: 1485, 361
+  size: 128, 150
+  orig: 128, 150
+  offset: 0, 0
+  index: -1
+lock_1
+  rotate: false
+  xy: 1615, 384
+  size: 128, 150
+  orig: 128, 150
+  offset: 0, 0
+  index: -1
+paper_0
+  rotate: false
+  xy: 658, 32
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+paper_1
+  rotate: false
+  xy: 1076, 360
+  size: 128, 168
+  orig: 128, 168
+  offset: 0, 0
+  index: -1
+paper_2
+  rotate: false
+  xy: 1362, 513
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+paper_3
+  rotate: false
+  xy: 2, 2
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+paper_4
+  rotate: false
+  xy: 1875, 402
+  size: 122, 132
+  orig: 122, 132
+  offset: 0, 0
+  index: -1
+paper_5
+  rotate: false
+  xy: 1848, 779
+  size: 165, 218
+  orig: 165, 218
+  offset: 0, 0
+  index: -1
+rock_0
+  rotate: false
+  xy: 472, 3
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+rock_1
+  rotate: false
+  xy: 974, 102
+  size: 128, 168
+  orig: 128, 168
+  offset: 0, 0
+  index: -1
+rock_2
+  rotate: false
+  xy: 1605, 756
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+rock_3
+  rotate: false
+  xy: 1206, 392
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+rock_4
+  rotate: false
+  xy: 1336, 239
+  size: 128, 130
+  orig: 128, 130
+  offset: 0, 0
+  index: -1
+rock_5
+  rotate: false
+  xy: 1772, 536
+  size: 165, 218
+  orig: 165, 218
+  offset: 0, 0
+  index: -1
+scissors_0
+  rotate: false
+  xy: 286, 3
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+scissors_1
+  rotate: false
+  xy: 844, 102
+  size: 128, 168
+  orig: 128, 168
+  offset: 0, 0
+  index: -1
+scissors_2
+  rotate: false
+  xy: 1362, 756
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+scissors_3
+  rotate: false
+  xy: 144, 2
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+scissors_4
+  rotate: false
+  xy: 1348, 371
+  size: 135, 140
+  orig: 135, 140
+  offset: 0, 0
+  index: -1
+scissors_5
+  rotate: false
+  xy: 1605, 536
+  size: 165, 218
+  orig: 165, 218
+  offset: 0, 0
+  index: -1
+tick
+  rotate: false
+  xy: 1206, 265
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 818, 897
+  size: 536, 100
+  orig: 536, 100
+  offset: 0, 0
+  index: -1
