@@ -15,6 +15,7 @@ import com.algodal.game.rockpaperscissors.entities.LockBG;
 import com.algodal.game.rockpaperscissors.entities.LockHand;
 import com.algodal.game.rockpaperscissors.helper.PlayHelper;
 import com.algodal.game.rockpaperscissors.helper.Shaders;
+import com.algodal.game.rockpaperscissors.platform.Platform;
 import com.algodal.game.rockpaperscissors.scenes.Advance;
 import com.algodal.game.rockpaperscissors.scenes.Menu;
 import com.algodal.game.rockpaperscissors.scenes.Play;
@@ -156,8 +157,11 @@ public class SubGame {
 	}
 	
 	public final MusicHandler musicHandler;
+	public final Platform platform;
 	
-	public SubGame() {
+	public SubGame(Platform platform) {
+		this.platform = platform;
+
 		sndClick = Gdx.audio.newSound(Gdx.files.internal(Constants.sndClick));
 		sndTone = Gdx.audio.newSound(Gdx.files.internal(Constants.sndTone));
 		sndJingle = Gdx.audio.newSound(Gdx.files.internal(Constants.sndJingle));
@@ -182,7 +186,7 @@ public class SubGame {
 		st.getViewport().getCamera().position.setZero();
 		//st.setDebugAll(true);
 		
-		cc = new Color(Color.BROWN);
+		cc = new Color(Color.BLACK);
 		v = new Vector2();
 		
 		adMap = new ArrayMap<String, AssetDescriptor<?>>();

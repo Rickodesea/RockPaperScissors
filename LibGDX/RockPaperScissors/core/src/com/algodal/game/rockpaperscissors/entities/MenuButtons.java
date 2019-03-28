@@ -227,7 +227,7 @@ public class MenuButtons extends Entity {
 					@Override
 					public void clicked(InputEvent event, float x, float y) {
 						sg.data.menu.mode++;
-						if(sg.data.menu.mode>2) sg.data.menu.mode=0;
+						if(sg.data.menu.mode>1) sg.data.menu.mode=0;
 						modeBox.setSelectedIndex(sg.data.menu.mode);
 						switch(sg.data.menu.mode) {
 						default: {
@@ -261,7 +261,7 @@ public class MenuButtons extends Entity {
 		public void show(SubGame sg) {
 			//if(!newGame(sg))sg.st.addActor(contGameBtn);
 			sg.st.addActor(newGameBtn);
-			if(ads(sg))sg.st.addActor(remAdsBtn);
+			//if(ads(sg))sg.st.addActor(remAdsBtn);
 			sg.st.addActor(sliMaster);
 			sg.st.addActor(sliSound);
 			sg.st.addActor(sliMusic);

@@ -28,6 +28,7 @@ private final LateInitialization lateInitialization;
 					protected void result(Object object) {
 						final boolean result = (Boolean)object;
 						sg.playTone();
+						sg.platform.playInterstitialAd();
 						switch(sg.data.menu.mode) {
 						default: {
 							if(result) {

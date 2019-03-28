@@ -72,13 +72,13 @@ public class SkinUI extends Entity {
 					@Override
 					public void clicked(InputEvent event, float x, float y) {
 						Gdx.app.log("Save Button", "Clicked");
-						if(saveOK(sg)) {
+						//if(saveOK(sg)) {
 							sg.data.play.setting.bgSkinIndex = bgGallery.skinIndex;
 							sg.data.play.setting.handSkinIndex = handGallery.skinIndex;
 							sg.dataSave();
-						} else {
-							adsDialog.show(sg);
-						}
+						//} else {
+							//adsDialog.show(sg);
+						//}
 						sg.playTone();
 					}
 				});

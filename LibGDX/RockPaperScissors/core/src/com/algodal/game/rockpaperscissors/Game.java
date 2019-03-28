@@ -1,5 +1,6 @@
 package com.algodal.game.rockpaperscissors;
 
+import com.algodal.game.rockpaperscissors.platform.Platform;
 import com.badlogic.gdx.ApplicationAdapter;
 
 public class Game extends ApplicationAdapter {
@@ -7,9 +8,17 @@ public class Game extends ApplicationAdapter {
 	private SubGame sg;
 	private boolean running = true;
 	
+	public final Platform platform;
+	
+	public Game(Platform platform) {
+		super();
+		this.platform = platform;
+	}
+	
 	@Override
 	public void create() {
-		sg = new SubGame();
+		sg = new SubGame(platform);
+		platform.setSubGame(sg);
 		running = true;
 	}
 	
@@ -20,7 +29,11 @@ public class Game extends ApplicationAdapter {
 	
 	@Override
 	public void render() {
-		if(running) sg.render();
+
+		if(running) {
+			sg.render();
+			platform.update(1f/60);
+		}
 	}
 	
 	@Override

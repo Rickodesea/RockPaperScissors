@@ -18,8 +18,8 @@ public class SkinSetup extends Scene {
 	
 	@Override
 	protected void lateInitialize(SubGame sg) {
-		entities.add(sg.lockBG);
-		entities.add(sg.lockHand);
+		//entities.add(sg.lockBG);
+		//entities.add(sg.lockHand);
 		super.lateInitialize(sg);
 	}
 	

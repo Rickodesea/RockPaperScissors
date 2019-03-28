@@ -13,6 +13,6 @@ public class DesktopLauncher {
 		config.y = 0;
 		System.out.println("Window Size : " + config.width + ", " + config.height);
 		System.out.println("Window Position : " + config.x + ", " + config.y);
-		new LwjglApplication(new Game(), config);
+		new LwjglApplication(new Game(new Desktop(config)), config);
 	}
 }
